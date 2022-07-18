@@ -46,8 +46,8 @@ Is the use of html tags that are meaningful to the content they are displaying.
 Why is it important to use the “correct” semantic element?  
 So screenreaders can navigate a page more accurately, and also robots can better index context.  
 
-What is the <form> element used for?  
-  To submit information.  
+What is the <pre><form></pre> element used for?  
+To submit information.  
   
   
 ## CSS 
