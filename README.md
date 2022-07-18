@@ -46,16 +46,25 @@ Is the use of html tags that are meaningful to the content they are displaying.
 Why is it important to use the “correct” semantic element?  
 So screenreaders can navigate a page more accurately, and also robots can better index context.  
 
-What is the <pre><form></pre> element used for?  
+What is the 'form' element used for?  
 To submit information.  
   
   
 ## CSS 
-How would you use CSS variables to make a reusable colour palette?
-How would you use flexbox to make elements sit on a single line?
-How would you use grid to make a layout that automatically adds columns as the screen gets wider?
-Why is it important to create a responsive design?
-How would you structure your CSS to make it “mobile-first”?
+How would you use CSS variables to make a reusable colour palette?  
+:root{--blue = #blue;} p{color: var(--blue);}  
+
+How would you use flexbox to make elements sit on a single line?  
+display:flex;  
+
+How would you use grid to make a layout that automatically adds columns as the screen gets wider?  
+grid-template-columns: repeat(auto-fill, 40px);  
+
+Why is it important to create a responsive design?  
+Most of views are on small devices, so websites and apps should have a mobile first apprach.  
+
+How would you structure your CSS to make it “mobile-first”?  
+Start with the small device properties, add media-queries for tablet, and large
 ## Javascript 
 Why should we avoid using
 var
