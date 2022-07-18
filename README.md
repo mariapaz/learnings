@@ -65,22 +65,24 @@ Most of views are on small devices, so websites and apps should have a mobile fi
 
 How would you structure your CSS to make it “mobile-first”?  
 Start with the small device properties, add media-queries for tablet, and large
+
 ## Javascript 
-Why should we avoid using
-var
-to define variables?
-How might you make a long, complex chunk of code easier to read?
+Why should we avoid using var to define variables?  
+Because the scope is more complex than let and const, and they can be type re-assigned.  
+
+How might you make a long, complex chunk of code easier to read?  
+Adding comments of what the code is doing there.  
+
 What is a “callback”?
+It's a function passed as an argument to another function. 
+
 ## Array methods 
-How would you use
-array.map()
-to create a new array with transformed values?
-How would you use
-array.filter()
-to create a new array with certain values removed?
-How would you use
-array.find()
-to get a single value from an array?
+How would you use array.map() to create a new array with transformed values?  
+array.map(element) => { /* transform */ }
+How would you use array.filter() to create a new array with certain values removed?  
+
+How would you use array.find() to get a single value from an array?  
+
 ## Promises & fetch 
 What is a promise?
 How do promises help manage asynchronous code?
