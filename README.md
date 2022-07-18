@@ -1,33 +1,55 @@
 # learnings
 ## Git 
-Why do we use Git?
-What’s the difference between Git and GitHub?
-What happens when you
-clone
-a repository?
-What happens when we do
-git pull origin main
-How do we create a new branch on our local machine?
-How do we control which changes will be included in the next commit?
-When might git add . be inappropriate?
-How do we make sure our local changes don’t conflict with
-main
-?
-What does
-git push origin [branch-name]
-do?
-Why do we make pull requests instead of just changing
-main
-directly?
-Why should you review your teammates’ pull requests?
+Why do we use Git?  
+To have version control of our code. To better collaborate in a team of developers.  
+
+What’s the difference between Git and GitHub?  
+Git is the a version control system to track code and its changes and versions. Github is a cloudsystem to host repositories and by using Git enable version control. Gitub provides an interface, and a social platform to find and follow programmers.  
+
+What happens when you clone a repository?  
+You are downloading a copy of the files included in that repository.  
+
+What happens when we do git pull origin main  
+You are downloading the files of the main branch into an already cloned local directory.  
+
+How do we create a new branch on our local machine?  
+git checkout -b 'name-of-branch'  
+
+How do we control which changes will be included in the next commit?  
+By adding a file by its name.  
+
+When might git add . be inappropriate?  
+When you don't want to commit all the files.  
+
+How do we make sure our local changes don’t conflict with main?  
+git status will tell you if you are behind main. Also after a PR the person reviewing can check for conflicts.  
+
+What does git push origin [branch-name] do? 
+Uploads the branch-name as a new branch if it doesn't exist, or udates branch-name with the local files.  
+
+Why do we make pull requests instead of just changing main directly?  
+Because main is the last stable version. It is important to signal changes in the code by naming branches to be able to revert changes and branches.  
+
+Why should you review your teammates’ pull requests?  
+Because there could be errors in the code, or a better approach could be suggested.  
+
 ## HTML 
-Why is accessibility important?
-How can you quickly find simple accessibility problems?
-What is semantic HTML?
-Why is it important to use the “correct” semantic element?
-What is the
-<form>
-element used for?
+Why is accessibility important?  
+Accessibility ensures the web is for everyone, so everyone can access content regradless of a disablity, age, digital education, and so on.  
+
+How can you quickly find simple accessibility problems?  
+Using lighthouse report.  
+
+What is semantic HTML?  
+Is the use of html tags that are meaningful to the content they are displaying.  
+
+Why is it important to use the “correct” semantic element?  
+So screenreaders can navigate a page more accurately, and also robots can better index context.  
+
+What is the <form> element used for?  
+  To submit information.  
+  
+  
 ## CSS 
 How would you use CSS variables to make a reusable colour palette?
 How would you use flexbox to make elements sit on a single line?
